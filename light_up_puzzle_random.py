@@ -33,18 +33,6 @@ def create_populated_table_positions():
                 fill_with =  "      "
             line.append(fill_with)
         puzzle_table.append(line)
-   #puzzle_table[0][2] = "dark_2"
-   #puzzle_table[0][3] = "dark  "
-   #puzzle_table[1][4] = "dark_3"
-   #puzzle_table[2][1] = "dark  "
-   #puzzle_table[2][6] = "dark  "
-   #puzzle_table[3][0] = "dark  "
-   #puzzle_table[3][6] = "dark  "
-   #puzzle_table[4][0] = "dark_2"
-   #puzzle_table[4][5] = "dark  "
-   #puzzle_table[5][2] = "dark_2"
-   #puzzle_table[6][3] = "dark  "
-   #puzzle_table[6][4] = "dark_1"
 
 # imprime um jogo na tela
 def print_puzzle_table():
@@ -56,8 +44,6 @@ def print_puzzle_table():
     table.scale(1,1)
     ax.axis('off')
     plt.show()
-    #for i in range(puzzle_line_size) :
-    #    print(puzzle_table[i])
 
 # verifica se posição está na tabela
 def is_at_table_puzzle(i,j):
