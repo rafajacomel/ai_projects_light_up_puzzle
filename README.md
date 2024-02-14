@@ -1,2 +1,13 @@
-# ai_projects_light_up_puzzle
-This is  solution based on genetic algorithim to solve NP complete puzzle light up
+
+# Project Name
+
+light up puzzle.
+
+## About
+
+this is a project developed in Python to solve light up puzzle. It is part of the PhD developed at technological institute of aeronautics.
+
+
+### Prerequisites
+
+Python version 3.2 or higher
